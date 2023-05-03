@@ -16,8 +16,8 @@ close all
 
 
 %% Inputs
-yourpath = 'FILL YOUR PATH HERE';                     
-ascii_path = [yourpath '\DEM_example.asc'];                                 % ASCII file of DEM
+                    
+ascii_path = 'DEM_example.asc';                                             % ASCII file of DEM
 drainage_threshold = 1000;                                                  % cell_size^2
 min_area = 0;                                                               % min area for extract the largest stream within the catchment. [cell_size^2]
 max_drainage_area_for_preserved_surface = 10;                               % maximal drainage area for pixels that will be considerd as preserved [cell_size^2]    
